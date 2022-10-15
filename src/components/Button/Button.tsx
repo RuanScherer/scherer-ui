@@ -23,7 +23,7 @@ export function Button({
     <Component
       type={htmlType}
       className={clsx(
-        "py-4 px-3 bg-cyan-500 block rounded font-semibold text-black text-center text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white cursor-pointer",
+        "py-4 px-3 bg-cyan-500 block rounded font-semibold text-black text-center text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white cursor-pointer outline-none",
         {
           "bg-gray-400 hover:bg-gray-400 hover:cursor-not-allowed focus:ring-0": disabled
         }
